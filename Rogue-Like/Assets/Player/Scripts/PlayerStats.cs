@@ -4,4 +4,13 @@ using UnityEngine;
 public class PlayerStats : ScriptableObject
 {
     public bool canMove;
+
+    public float time;
+    public float currentTime;
+    
+    //SHOULD BE CALLED AT THE START OF THE GAME 
+    public void StartingStats()
+    {
+        time = 30.0f;
+    }
 }

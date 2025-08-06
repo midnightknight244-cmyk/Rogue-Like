@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Collectibles
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -11,10 +13,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Collectibles
+  - Door
   - 
   - 
   - 
@@ -47,8 +49,14 @@ TagManager:
   - name: Tilemap (Boundry)
     uniqueID: 3800507087
     locked: 0
+  - name: Door
+    uniqueID: 1098056345
+    locked: 0
   - name: Player
     uniqueID: 3162296123
+    locked: 0
+  - name: Collectibles
+    uniqueID: 409124623
     locked: 0
   m_RenderingLayers:
   - Default
