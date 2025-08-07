@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 0f4a119188470454d9617a9e58c6ff70
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefabSlime: {fileID: 4956250664751319253, guid: 807f93d8b11697a49acca4cf88f8e78f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

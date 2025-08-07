@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class CHEATS : MonoBehaviour
@@ -7,12 +8,12 @@ public class CHEATS : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Equals))
+        if (Keyboard.current.numpad1Key.isPressed)
         {
             SceneManager.LoadScene(0);
         }
 
-        if (Input.GetKeyDown(KeyCode.Asterisk))
+        if (Keyboard.current.numpad0Key.isPressed)
         {
             playerStats.currentTime = playerStats.time;
         }

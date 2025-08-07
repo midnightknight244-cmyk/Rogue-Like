@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 629ee9699f1b26048b4e5ed5803da00c, type: 3}
+  m_Name: LevelStats
+  m_EditorClassIdentifier: 
+  enemyStats: {fileID: 11400000, guid: 7f84cd0211ab39148b24ab2bee63d21f, type: 2}
+  collectibles: {fileID: 11400000, guid: 859d1d4f69ffa874cbd00e16859b81ec, type: 2}
+  level: 0
+  numberOftotalEnemies: 0
+  waves: 0
+  numberOfSpawnPoints: 0
+  coin: 0
+  endOfLevel: 0

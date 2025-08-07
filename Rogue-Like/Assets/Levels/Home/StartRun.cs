@@ -1,16 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartRun : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public LevelStats levelStats;
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("Start Run");
+
+            levelStats.BeginRunStats(); //NEED TO MOVE IT TO GAMEOBJECT TO BE CALLED ONLY ONCE
+            SceneManager.LoadScene(1);
+        }
     }
 }
